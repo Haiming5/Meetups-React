@@ -1,0 +1,27 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.modal {
+	align-self: flex-end;
+}
+
+.modal button {
+	font: inherit;
+	cursor: pointer;
+	background-color: #77002e;
+	color: white;
+	padding: 0.5rem 1.5rem;
+	border: 1px solid #77002e;
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+.modal button:hover,
+.modal button:active {
+	background-color: #a50e48;
+	border-color: #a50e48;
+}

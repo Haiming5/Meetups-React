@@ -1,17 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import { BrowserRouter } from "react-router-dom";
+import { FavoriteContextProvider } from "./store/StoredFavorites";
 
+// ReactDom an object created by the React team
+// <App /> is called JSX (html in javascript)
+// We want to render the App which defined in App.js to the index.html in public folder, where id is "root"
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+	<FavoriteContextProvider>
+		<BrowserRouter>
+			<App />
+		</BrowserRouter>
+	</FavoriteContextProvider>,
+	document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
