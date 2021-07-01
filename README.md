@@ -70,8 +70,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 # Purpose of This Repo
-
 This repo is a follow along project with Maximolian Schwarzmuller. The main goal is to learn to use React.
+
 
 ### Original Project
 
@@ -81,3 +81,5 @@ Here is the link to his video about his project:
 ### Own Variation
 
 I added all data used in this project to different databases with Google Firebase, so that all data can be retrieved back even when navigate away from the page.
+
+
